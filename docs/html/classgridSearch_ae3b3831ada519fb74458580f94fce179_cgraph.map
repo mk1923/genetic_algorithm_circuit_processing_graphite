@@ -1,0 +1,57 @@
+<map id="gridSearch::hyperParameterSearch" name="gridSearch::hyperParameterSearch">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,189,169"/>
+<area shape="rect" id="Node000002" href="$classCircuit.html#a9f30a1f36f8733fe49cf515ec4387e28" title="Checks the validity of the circuit configuration." alt="" coords="237,59,391,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,125,260,88,262,93,157,130"/>
+<area shape="rect" id="Node000004" href="$CSimulator_8cpp.html#a0c0dc657ea14231767678e4cc0b28795" title=" " alt="" coords="255,136,373,162"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="189,146,240,146,240,152,189,152"/>
+<area shape="rect" id="Node000017" href="$Genetic__Algorithm_8cpp.html#aaccb38476c92672cc4030f7553f4d31c" title="Optimization function using a genetic algorithm." alt="" coords="279,431,349,456"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="116,168,296,417,292,420,111,171"/>
+<area shape="rect" id="Node000003" href="$classCircuit.html#a77e630f3c6c0fd42f3945c16b6542cd0" title="Marks the units starting from a given unit number." alt="" coords="471,29,602,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,59,455,50,456,55,392,64"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="500,31,492,21,497,11,512,5,537,3,564,5,578,12,575,17,562,10,537,8,513,10,500,15,498,20,504,27"/>
+<area shape="rect" id="Node000005" href="$classCircuit.html#aee1a0bb604a9246051dce09319576f40" title="Evaluates the performance of the circuit." alt="" coords="439,79,634,104"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="366,133,468,106,470,111,367,138"/>
+<area shape="rect" id="Node000006" href="$classCircuit.html#a38c7a54a7a307a6c9166f15c3c1f0cfc" title="Initializes the units in the circuit." alt="" coords="480,129,594,169"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="373,146,464,146,464,152,373,152"/>
+<area shape="rect" id="Node000007" href="$classCircuit.html#a6de1ee8833171eb825fd36d0be158712" title="Iterates through the units in the circuit until convergence or maximum iterations are reached." alt="" coords="468,193,606,219"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="367,160,470,186,468,191,366,165"/>
+<area shape="rect" id="Node000008" href="$classCircuit.html#a83b68d1429ef11a41fbd14a9b9e2473f" title="Checks if the circuit has converged based on the tolerance." alt="" coords="682,43,866,68"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="605,194,633,179,644,167,650,155,656,130,662,104,669,91,681,79,687,74,690,78,684,83,673,95,667,106,661,132,655,157,648,170,636,183,608,198"/>
+<area shape="rect" id="Node000009" href="$classCircuit.html#a16f7c46030b7214c9273c864428df1f2" title="Retrieves all input units for all units in the circuit." alt="" coords="704,93,844,133"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="601,190,633,178,657,162,681,144,694,138,696,142,684,148,660,166,636,183,603,195"/>
+<area shape="rect" id="Node000011" href="$classCircuit.html#a0f713cdd5b293e5b77fca2d33f301f3a" title="Retrieves all input units for the final output in the circuit." alt="" coords="716,158,832,199"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="606,195,700,184,700,189,606,201"/>
+<area shape="rect" id="Node000012" href="$classCircuit.html#a638fdbcbaf68b80ce1c3196fb9b0d8c5" title="Calculates the flow rates for a single unit." alt="" coords="716,223,832,248"/>
+<area shape="poly" id="edge12_Node000007_Node000012" title=" " alt="" coords="606,212,700,224,700,229,606,217"/>
+<area shape="rect" id="Node000015" href="$classCircuit.html#abe7e217cba58f33c7224be9e536a814f" title="Updates the final output with the geradium and waste received." alt="" coords="705,273,843,313"/>
+<area shape="poly" id="edge15_Node000007_Node000015" title=" " alt="" coords="601,217,635,229,660,244,684,258,695,264,693,269,681,263,657,248,633,234,599,222"/>
+<area shape="rect" id="Node000016" href="$classCircuit.html#afdc1ce22d098a6bc6d0fc7bafd84b91a" title="Updates the input flow rates for all units in the circuit." alt="" coords="703,337,845,363"/>
+<area shape="poly" id="edge16_Node000007_Node000016" title=" " alt="" coords="607,214,636,229,647,241,655,253,661,277,667,301,684,323,691,328,688,332,680,327,662,303,656,279,650,255,643,244,633,234,605,219"/>
+<area shape="rect" id="Node000010" href="$classCircuit.html#a49bccd75e578d4f73519b79718452d65" title="Retrieves all input units for a single unit in the circuit." alt="" coords="940,93,1060,133"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="845,110,924,110,924,116,845,116"/>
+<area shape="rect" id="Node000013" href="$classCUnit.html#aa86e1b1321f9b6f2e3041c0df29c3bc3" title="Calculates the recovery rates for the CUnit." alt="" coords="914,187,1086,228"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="832,226,898,217,899,223,833,231"/>
+<area shape="rect" id="Node000014" href="$classCUnit.html#a1981b484b36fdea0c9641c55ffb1001a" title="Calculates the residence time (tau) for the CUnit." alt="" coords="930,252,1070,278"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="833,240,915,251,914,256,832,246"/>
+<area shape="rect" id="Node000018" href="$classGeneticAlgorithmUtils.html#aacaa3ae4a647a439d81bbe6b6d2e266f" title="Completes the progress bar by moving to a new line." alt="" coords="460,243,614,284"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="321,429,365,365,398,327,437,295,446,289,449,294,441,299,402,331,369,368,325,432"/>
+<area shape="rect" id="Node000019" href="$classGeneticAlgorithmUtils.html#a47f07f710a4ffb49540815f1c90e5b61" title="Perform crossover to produce offspring from two parents." alt="" coords="463,309,611,349"/>
+<area shape="poly" id="edge19_Node000017_Node000019" title=" " alt="" coords="333,428,380,398,438,365,464,353,466,358,440,370,383,402,336,432"/>
+<area shape="rect" id="Node000020" href="$classGeneticAlgorithmUtils.html#a58b68496e03f23b2793c24d37335eaf0" title="Generates a random integer between min and max (inclusive)." alt="" coords="700,438,848,479"/>
+<area shape="poly" id="edge27_Node000017_Node000020" title=" " alt="" coords="349,430,391,418,439,409,537,399,580,401,635,409,673,418,711,430,709,435,672,423,634,414,580,407,537,405,439,414,392,423,350,435"/>
+<area shape="rect" id="Node000021" href="$classGeneticAlgorithmUtils.html#a2092e3ce6bfa42d5e8764497a5f0a2b5" title="Evaluate the fitness of the population." alt="" coords="463,423,611,464"/>
+<area shape="poly" id="edge21_Node000017_Node000021" title=" " alt="" coords="350,441,447,441,447,446,350,446"/>
+<area shape="rect" id="Node000022" href="$classGeneticAlgorithmUtils.html#ae8edf1ddfb52edf65b76787aab1d104f" title="Initialize the population with only valid individuals." alt="" coords="459,489,614,529"/>
+<area shape="poly" id="edge22_Node000017_Node000022" title=" " alt="" coords="350,451,451,481,450,486,349,456"/>
+<area shape="rect" id="Node000023" href="$classGeneticAlgorithmUtils.html#a7609063a3acb8609c9a3cee1c4949c33" title="Mutate an individual by randomly substituting one of its elements." alt="" coords="463,554,611,595"/>
+<area shape="poly" id="edge24_Node000017_Node000023" title=" " alt="" coords="331,455,377,495,440,539,453,545,450,550,438,543,374,500,327,459"/>
+<area shape="rect" id="Node000025" href="$classGeneticAlgorithmUtils.html#ace673ae924dd092b25c032a199d9c158" title="Select parents for the next generation based on their fitness." alt="" coords="463,619,611,660"/>
+<area shape="poly" id="edge28_Node000017_Node000025" title=" " alt="" coords="324,455,367,526,400,568,441,604,450,610,447,615,437,608,396,571,362,529,319,458"/>
+<area shape="rect" id="Node000026" href="$classGeneticAlgorithmUtils.html#a69725342ce55b99f6ebdcfe3ee6e308b" title="Displays a progress bar on the console." alt="" coords="463,685,611,725"/>
+<area shape="poly" id="edge29_Node000017_Node000026" title=" " alt="" coords="321,456,334,497,358,554,393,616,415,644,441,669,451,677,447,681,437,674,411,648,389,619,353,557,329,499,316,457"/>
+<area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="596,347,636,365,687,395,734,426,731,431,685,400,633,370,594,352"/>
+<area shape="poly" id="edge23_Node000022_Node000020" title=" " alt="" coords="614,490,684,475,685,480,615,495"/>
+<area shape="poly" id="edge25_Node000023_Node000020" title=" " alt="" coords="603,551,633,538,683,512,728,485,730,490,685,517,635,543,605,556"/>
+<area shape="rect" id="Node000024" href="$classGeneticAlgorithmUtils.html#ab1e8479a24723be8bb5693144997f1d3" title="Determines whether a mutation should occur based on the mutation rate." alt="" coords="700,554,848,595"/>
+<area shape="poly" id="edge26_Node000023_Node000024" title=" " alt="" coords="611,572,684,572,684,577,611,577"/>
+</map>

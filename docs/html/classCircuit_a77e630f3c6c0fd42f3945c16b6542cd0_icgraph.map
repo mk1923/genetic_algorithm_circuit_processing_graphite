@@ -1,0 +1,10 @@
+<map id="Circuit::mark_units" name="Circuit::mark_units">
+<area shape="rect" id="Node000001" title="Marks the units starting from a given unit number." alt="" coords="439,42,570,68"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="537,29,526,23,505,21,485,23,474,28,472,33,477,40,473,43,466,34,470,24,483,18,505,16,528,18,540,25"/>
+<area shape="rect" id="Node000002" href="$classCircuit.html#a9f30a1f36f8733fe49cf515ec4387e28" title="Checks the validity of the circuit configuration." alt="" coords="237,42,391,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="424,58,391,58,391,52,424,52"/>
+<area shape="rect" id="Node000003" href="$classgridSearch.html#ae3b3831ada519fb74458580f94fce179" title=" " alt="" coords="5,5,189,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="221,45,189,41,190,35,222,40"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="72,70,122,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="222,70,123,83,122,77,221,64"/>
+</map>

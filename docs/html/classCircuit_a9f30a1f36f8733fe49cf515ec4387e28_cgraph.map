@@ -1,0 +1,6 @@
+<map id="Circuit::Check_Validity" name="Circuit::Check_Validity">
+<area shape="rect" id="Node000001" title="Checks the validity of the circuit configuration." alt="" coords="5,29,160,55"/>
+<area shape="rect" id="Node000002" href="$classCircuit.html#a77e630f3c6c0fd42f3945c16b6542cd0" title="Marks the units starting from a given unit number." alt="" coords="208,29,339,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,40,192,40,192,45,160,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="241,30,235,21,239,11,252,5,273,3,296,5,308,12,306,16,295,10,273,8,253,10,243,15,240,20,246,27"/>
+</map>

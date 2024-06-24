@@ -1,0 +1,7 @@
+<map id="Circuit::one_unit" name="Circuit::one_unit">
+<area shape="rect" id="Node000001" title="Calculates the flow rates for a single unit." alt="" coords="5,42,122,68"/>
+<area shape="rect" id="Node000002" href="$classCUnit.html#aa86e1b1321f9b6f2e3041c0df29c3bc3" title="Calculates the recovery rates for the CUnit." alt="" coords="170,5,342,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,43,154,39,155,44,123,49"/>
+<area shape="rect" id="Node000003" href="$classCUnit.html#a1981b484b36fdea0c9641c55ffb1001a" title="Calculates the residence time (tau) for the CUnit." alt="" coords="186,70,326,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,61,171,68,170,73,122,66"/>
+</map>

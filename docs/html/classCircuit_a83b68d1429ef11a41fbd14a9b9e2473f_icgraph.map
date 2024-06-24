@@ -1,0 +1,11 @@
+<map id="Circuit::check_convergence" name="Circuit::check_convergence">
+<area shape="rect" id="Node000001" title="Checks if the circuit has converged based on the tolerance." alt="" coords="588,42,772,68"/>
+<area shape="rect" id="Node000002" href="$classCircuit.html#a6de1ee8833171eb825fd36d0be158712" title="Iterates through the units in the circuit until convergence or maximum iterations are reached." alt="" coords="402,42,540,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="573,58,541,58,541,52,573,52"/>
+<area shape="rect" id="Node000003" href="$CSimulator_8cpp.html#a0c0dc657ea14231767678e4cc0b28795" title=" " alt="" coords="237,42,354,68"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,58,355,58,355,52,386,52"/>
+<area shape="rect" id="Node000004" href="$classgridSearch.html#ae3b3831ada519fb74458580f94fce179" title=" " alt="" coords="5,5,189,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="221,47,189,42,189,37,222,41"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="72,70,122,96"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="222,68,122,82,122,77,221,63"/>
+</map>

@@ -1,0 +1,72 @@
+#!/bin/bash
+#PBS -N Genetic_Algorithm
+#PBS -l select=1:ncpus=128:mpiprocs=1:ompthreads=1:mem=10000mb
+#PBS -l walltime=0:10:00
+#PBS -j oe
+#PBS -o job_output.log
+
+# Output file for results
+TIMELOG_FILE="timelog.txt"
+
+# Initialize the timelog file
+echo "Threads Execution_Time(ms) Efficiency" > $TIMELOG_FILE
+
+# Change directory to the submission directory
+cd $PBS_O_WORKDIR
+
+# Load necessary modules
+module load GCC
+module load CMake
+module load OpenMPI
+
+# CMake
+mkdir -p build
+pushd build
+
+cmake .. 2>&1 | tee -a ../job_output.log
+
+if [ $? -eq 0 ]; then
+    echo "cmake: pass" | tee -a ../job_output.log
+else
+    echo "cmake: fail" | tee -a ../job_output.log
+    echo "Read the cmake.log below to investigate." | tee -a ../job_output.log
+    cat cmake.log | tee -a ../job_output.log
+    exit 1
+fi
+
+# Make
+make Circuit_Optimizer 2>&1 | tee -a ../job_output.log
+
+if [ $? -eq 0 ]; then
+    echo "make: pass" | tee -a ../job_output.log
+else
+    echo "make: fail" | tee -a ../job_output.log
+    echo "Read the make.log below to investigate." | tee -a ../job_output.log
+    cat make.log | tee -a ../job_output.log
+    exit 1
+fi
+popd
+
+# Measure execution time for different thread counts and calculate efficiency
+serial_time=0
+for i in 1 4 8 16 32 64 128; do
+    # Measure execution time
+    start_time=$(date +%s%3N)
+    OMP_NUM_THREADS=$i build/bin/Circuit_Optimizer > md-$i.txt 2>&1
+    end_time=$(date +%s%3N)
+    execution_time=$((end_time - start_time))
+
+    # Calculate efficiency for parallel runs
+    if [ $i -eq 1 ]; then
+        serial_time=$execution_time
+        efficiency=1
+    else
+        efficiency=$(python3 -c "print($serial_time / ($execution_time * $i))")
+    fi
+
+    # Append the thread count, time, and efficiency to timelog file
+    echo "$i $execution_time $efficiency" >> $TIMELOG_FILE
+
+    # Log the result
+    echo "Threads: $i, Time: $execution_time ms, Efficiency: $efficiency" | tee -a job_output.log
+done

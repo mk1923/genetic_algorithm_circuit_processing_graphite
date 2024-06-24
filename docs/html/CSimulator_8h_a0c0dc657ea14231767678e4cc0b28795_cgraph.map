@@ -1,0 +1,27 @@
+<map id="Evaluate_Circuit" name="Evaluate_Circuit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,100,123,126"/>
+<area shape="rect" id="Node000002" href="$classCircuit.html#aee1a0bb604a9246051dce09319576f40" title="Evaluates the performance of the circuit." alt="" coords="171,43,366,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,97,170,78,199,70,200,75,171,83,109,102"/>
+<area shape="rect" id="Node000003" href="$classCircuit.html#a38c7a54a7a307a6c9166f15c3c1f0cfc" title="Initializes the units in the circuit." alt="" coords="211,93,326,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,110,195,110,195,116,123,116"/>
+<area shape="rect" id="Node000004" href="$classCircuit.html#a6de1ee8833171eb825fd36d0be158712" title="Iterates through the units in the circuit until convergence or maximum iterations are reached." alt="" coords="199,157,338,183"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="109,124,171,142,200,150,199,155,170,147,108,129"/>
+<area shape="rect" id="Node000005" href="$classCircuit.html#a83b68d1429ef11a41fbd14a9b9e2473f" title="Checks if the circuit has converged based on the tolerance." alt="" coords="414,5,597,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="337,158,364,143,375,131,382,119,387,94,393,67,400,54,412,42,419,37,422,41,416,45,405,57,398,69,393,95,387,121,380,134,368,147,339,163"/>
+<area shape="rect" id="Node000006" href="$classCircuit.html#a16f7c46030b7214c9273c864428df1f2" title="Retrieves all input units for all units in the circuit." alt="" coords="436,55,576,96"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="334,154,365,142,389,125,413,107,425,100,428,105,415,111,392,129,367,147,336,159"/>
+<area shape="rect" id="Node000008" href="$classCircuit.html#a0f713cdd5b293e5b77fca2d33f301f3a" title="Retrieves all input units for the final output in the circuit." alt="" coords="448,121,564,161"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="337,159,431,147,432,153,338,164"/>
+<area shape="rect" id="Node000009" href="$classCircuit.html#a638fdbcbaf68b80ce1c3196fb9b0d8c5" title="Calculates the flow rates for a single unit." alt="" coords="448,185,564,211"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="338,176,432,187,431,192,337,181"/>
+<area shape="rect" id="Node000012" href="$classCircuit.html#abe7e217cba58f33c7224be9e536a814f" title="Updates the final output with the geradium and waste received." alt="" coords="437,235,574,276"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="306,181,415,221,432,227,430,232,413,226,304,186"/>
+<area shape="rect" id="Node000013" href="$classCircuit.html#afdc1ce22d098a6bc6d0fc7bafd84b91a" title="Updates the input flow rates for all units in the circuit." alt="" coords="435,300,576,326"/>
+<area shape="poly" id="edge12_Node000004_Node000013" title=" " alt="" coords="284,182,338,232,375,261,415,285,430,292,428,297,413,290,372,265,335,236,280,185"/>
+<area shape="rect" id="Node000007" href="$classCircuit.html#a49bccd75e578d4f73519b79718452d65" title="Retrieves all input units for a single unit in the circuit." alt="" coords="671,55,792,96"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="576,73,656,73,656,78,576,78"/>
+<area shape="rect" id="Node000010" href="$classCUnit.html#aa86e1b1321f9b6f2e3041c0df29c3bc3" title="Calculates the recovery rates for the CUnit." alt="" coords="645,150,818,191"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="564,188,630,180,630,185,565,194"/>
+<area shape="rect" id="Node000011" href="$classCUnit.html#a1981b484b36fdea0c9641c55ffb1001a" title="Calculates the residence time (tau) for the CUnit." alt="" coords="661,215,802,240"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="565,203,646,214,646,219,564,208"/>
+</map>

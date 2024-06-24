@@ -1,0 +1,24 @@
+<map id="optimize" name="optimize">
+<area shape="rect" id="Node000001" title="Optimization function using a genetic algorithm." alt="" coords="5,226,76,252"/>
+<area shape="rect" id="Node000002" href="$classGeneticAlgorithmUtils.html#aacaa3ae4a647a439d81bbe6b6d2e266f" title="Completes the progress bar by moving to a new line." alt="" coords="124,5,279,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="42,225,50,192,66,148,89,100,122,57,126,53,130,57,126,61,93,103,70,150,55,194,47,226"/>
+<area shape="rect" id="Node000003" href="$classGeneticAlgorithmUtils.html#a47f07f710a4ffb49540815f1c90e5b61" title="Perform crossover to produce offspring from two parents." alt="" coords="127,71,276,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="47,224,76,178,97,152,122,128,136,118,139,122,125,132,101,155,81,182,51,227"/>
+<area shape="rect" id="Node000004" href="$classGeneticAlgorithmUtils.html#a58b68496e03f23b2793c24d37335eaf0" title="Generates a random integer between min and max (inclusive)." alt="" coords="327,189,475,230"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="51,224,81,196,101,182,123,171,177,160,233,161,286,169,333,181,332,187,285,174,232,166,178,165,125,176,104,186,84,200,55,228"/>
+<area shape="rect" id="Node000005" href="$classGeneticAlgorithmUtils.html#a2092e3ce6bfa42d5e8764497a5f0a2b5" title="Evaluate the fitness of the population." alt="" coords="127,185,276,226"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="76,229,111,222,112,227,77,234"/>
+<area shape="rect" id="Node000006" href="$classGeneticAlgorithmUtils.html#ae8edf1ddfb52edf65b76787aab1d104f" title="Initialize the population with only valid individuals." alt="" coords="124,251,279,291"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="77,243,109,250,108,255,76,249"/>
+<area shape="rect" id="Node000007" href="$classGeneticAlgorithmUtils.html#a7609063a3acb8609c9a3cee1c4949c33" title="Mutate an individual by randomly substituting one of its elements." alt="" coords="127,316,276,357"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="58,250,88,275,125,301,135,306,132,311,122,305,85,279,55,255"/>
+<area shape="rect" id="Node000009" href="$classGeneticAlgorithmUtils.html#ace673ae924dd092b25c032a199d9c158" title="Select parents for the next generation based on their fitness." alt="" coords="127,381,276,422"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="49,251,77,306,99,338,125,366,131,370,127,375,122,370,95,341,72,309,45,253"/>
+<area shape="rect" id="Node000010" href="$classGeneticAlgorithmUtils.html#a69725342ce55b99f6ebdcfe3ee6e308b" title="Displays a progress bar on the console." alt="" coords="127,447,276,487"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="47,252,54,287,69,335,92,386,107,410,126,432,129,435,125,439,122,435,103,413,87,389,64,337,49,288,41,253"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="247,109,280,127,360,178,357,183,278,132,245,114"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="269,248,317,233,319,238,271,253"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="254,313,278,301,323,270,364,238,367,242,327,274,280,305,256,318"/>
+<area shape="rect" id="Node000008" href="$classGeneticAlgorithmUtils.html#ab1e8479a24723be8bb5693144997f1d3" title="Determines whether a mutation should occur based on the mutation rate." alt="" coords="327,316,475,357"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="276,334,311,334,311,339,276,339"/>
+</map>
